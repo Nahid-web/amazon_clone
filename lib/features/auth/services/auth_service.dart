@@ -1,8 +1,8 @@
 import 'dart:convert';
 
+import 'package:amazon_clone/common/bottom_bar.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
 import 'package:amazon_clone/constants/utils.dart';
-import 'package:amazon_clone/features/home/screens/home_screen.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -10,7 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../constants/global_variables.dart';
-import '../../../models/User.dart';
+import '../../../models/user.dart';
 
 class AuthService {
   //sign up user
@@ -79,7 +79,7 @@ class AuthService {
             print(prefs.getString('x-auth-token'));
             Navigator.pushNamedAndRemoveUntil(
               context,
-              HomeScreen.routeName,
+              BottomBar.routeName,
               (route) => false,
             );
           });

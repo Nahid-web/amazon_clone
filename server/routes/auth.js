@@ -24,7 +24,7 @@ authRoute.post("/api/signup", async (req, res) => {
 
     user = await user.save();
     res.json(user);
-    console.log(user);
+    // console.log(user);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -71,4 +71,5 @@ authRoute.get("/", auth, async (req, res) => {
   const user = await User.findById(req.user);
   res.json({ ...user._doc, token: req.token });
 });
+
 module.exports = authRoute;
