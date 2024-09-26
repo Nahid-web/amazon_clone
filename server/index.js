@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 //imports from files
 const authRoute = require("./routes/auth");
 const adminRouter = require("./routes/admin");
+const productRouter = require("./routes/product");
 
 //INIT
 const PORT = process.env.PORT || 3000;
@@ -16,6 +17,7 @@ const DB =
 app.use(express.json());
 app.use(authRoute);
 app.use(adminRouter);
+app.use(productRouter);
 
 //creating a api
 
