@@ -8,16 +8,19 @@ class User {
   String? sId;
 
   int? iV;
+  List<dynamic>? cart;
 
-  User(
-      {this.name,
-      this.email,
-      this.password,
-      this.address,
-      this.type,
-      this.token = '',
-      this.sId,
-      this.iV});
+  User({
+    this.name,
+    this.email,
+    this.password,
+    this.address,
+    this.type,
+    this.token = '',
+    this.sId,
+    this.iV,
+    this.cart,
+  });
 
   User.fromJson(Map<String, dynamic> json) {
     name = json['name'];
@@ -29,6 +32,11 @@ class User {
     sId = json['_id'];
 
     iV = json['__v'];
+    cart = List<Map<String, dynamic>>.from(
+      json['cart'].map(
+        (x) => Map<String, dynamic>.from(x),
+      ),
+    );
   }
 
   Map<String, dynamic> toJson() {
@@ -39,6 +47,8 @@ class User {
     data['address'] = address;
     data['type'] = type;
     data['token'] = token;
+    data['cart'] = cart;
+
     data['_id'] = sId;
     data['__v'] = iV;
     return data;

@@ -60,7 +60,7 @@ class _AuthScreenState extends State<AuthScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+              const Text(
                 "Welcome",
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
               ),
@@ -68,7 +68,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 tileColor: _auth == Auth.signup
                     ? GlobalVariables.backgroundColor
                     : GlobalVariables.greyBackgroundColor,
-                title: Text(
+                title: const Text(
                   "Create Account",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,

@@ -11,4 +11,9 @@ class UserProvider extends ChangeNotifier {
     _user = User.fromJson(user);
     notifyListeners();
   }
+
+  void addCart(List<dynamic> cartList) {
+    _user.cart = cartList;
+    notifyListeners();
+  }
 }

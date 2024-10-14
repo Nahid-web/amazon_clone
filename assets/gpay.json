@@ -11,7 +11,7 @@
             "type": "PAYMENT_GATEWAY",
             "parameters": {
               "gateway": "example",
-              "gatewayMerchantId": "gatewayMerchantId"
+              "gatewayMerchantId": "BCR2DN4T26WKXTQD"
             }
           },
           "parameters": {
@@ -26,8 +26,8 @@
         }
       ],
       "merchantInfo": {
-        "merchantId": "01234567890123456789",
-        "merchantName": "Example Merchant Name"
+        "merchantId": "BCR2DN4T26WKXTQD",
+        "merchantName": "Nahid"
       },
       "transactionInfo": {
         "countryCode": "US",

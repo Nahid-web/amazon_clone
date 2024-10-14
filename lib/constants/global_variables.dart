@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-String uri = 'http://192.168.0.115:3000';
+String uri = 'http://192.168.0.104:3000';
+
 
 class GlobalVariables {
   // COLORS
@@ -18,8 +19,7 @@ class GlobalVariables {
   static var selectedNavBarColor = Colors.cyan[800]!;
   static const unselectedNavBarColor = Colors.black87;
 
-
-   // STATIC IMAGES
+  // STATIC IMAGES
   static const List<String> carouselImages = [
     'https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/WLA/TS/D37847648_Accessories_savingdays_Jan22_Cat_PC_1500.jpg',
     'https://images-eu.ssl-images-amazon.com/images/G/31/img2021/Vday/bwl/English.jpg',
@@ -28,7 +28,7 @@ class GlobalVariables {
     'https://images-na.ssl-images-amazon.com/images/G/31/img21/shoes/September/SSW/pc-header._CB641971330_.jpg',
   ];
 
-    static const List<Map<String, String>> categoryImages = [
+  static const List<Map<String, String>> categoryImages = [
     {
       'title': 'Mobiles',
       'image': 'assets/images/mobiles.jpeg',
@@ -50,6 +50,4 @@ class GlobalVariables {
       'image': 'assets/images/fashion.jpeg',
     },
   ];
-
-
 }
