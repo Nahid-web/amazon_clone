@@ -9,7 +9,7 @@ class UserProvider extends ChangeNotifier {
 
   void setUser(user) {
     _user = User.fromJson(user);
-    print("user is ${_user.toJson()}");
+    debugPrint("user is ${_user.toJson()}");
     notifyListeners();
   }
 
