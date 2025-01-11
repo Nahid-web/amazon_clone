@@ -24,7 +24,7 @@ class AdminServices {
   }) async {
     final userProvider = Provider.of<UserProvider>(context, listen: false);
     try {
-      final cloudinary = CloudinaryPublic('dtnrmaa4q', 'khnxbzdz');
+      final cloudinary = CloudinaryPublic('dtnrmaa4q', 'inbjujgp');
       List<String> imageUrls = [];
 
       for (int i = 0; i < images.length; i++) {
@@ -111,7 +111,6 @@ class AdminServices {
           'id': product.id,
         }),
       );
-
 
       httpErrorHandle(
           response: res,
