@@ -1,4 +1,5 @@
 import 'package:amazon_clone/common/bottom_bar.dart';
+import 'package:amazon_clone/common/loader.dart';
 import 'package:amazon_clone/constants/global_variables.dart';
 import 'package:amazon_clone/features/admin/screens/admin_screen.dart';
 import 'package:amazon_clone/features/auth/screens/auth_screen.dart';
@@ -33,11 +34,19 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final AuthService authService = AuthService();
+  bool isLoading = true;
   @override
   void initState() {
     // Fetch user data when app starts
     authService.getUserData(context);
     super.initState();
+
+    // Adding a 2-second delay to simulate loading
+    Future.delayed(const Duration(seconds: 1), () {
+      setState(() {
+        isLoading = false;
+      });
+    });
   }
 
   @override
@@ -53,11 +62,13 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
       ),
       onGenerateRoute: (settings) => generateRoute(settings),
-      home: Provider.of<UserProvider>(context).user.token!.isEmpty
-          ? const AuthScreen()
-          : Provider.of<UserProvider>(context).user.type == 'user'
+      home: Provider.of<UserProvider>(context).user.token!.isNotEmpty
+          ? Provider.of<UserProvider>(context).user.type == 'user'
               ? const BottomBar()
-              : const AdminScreen(),
+              : const AdminScreen()
+          : isLoading
+              ? const Loader()
+              : const AuthScreen(),
     );
   }
 }
