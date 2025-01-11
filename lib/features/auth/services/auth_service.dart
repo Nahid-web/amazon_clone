@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:amazon_clone/common/bottom_bar.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
+import 'package:amazon_clone/constants/urls.dart';
 import 'package:amazon_clone/constants/utils.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,7 @@ class AuthService {
         email: email,
       );
       http.Response res = await http.post(
-        Uri.parse('$uri/api/signup'),
+        Uri.parse(Urls.signUpUrl),
         headers: {
           'Content-Type': 'application/json',
         },
@@ -54,7 +55,7 @@ class AuthService {
   }) async {
     try {
       http.Response res = await http.post(
-        Uri.parse('$uri/api/signin'),
+        Uri.parse(Urls.signInUrl),
         headers: {
           'Content-Type': 'application/json',
         },
@@ -101,7 +102,7 @@ class AuthService {
       }
 
       var tokenRes = await http.post(
-        Uri.parse('$uri/tokenIsValid'),
+        Uri.parse(Urls.tokenIsValid),
         headers: {'Content-Type': 'application/json', 'x-auth-token': token!},
       );
 
