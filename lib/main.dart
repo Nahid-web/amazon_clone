@@ -35,8 +35,9 @@ class _MyAppState extends State<MyApp> {
   final AuthService authService = AuthService();
   @override
   void initState() {
-    super.initState();
+    // Fetch user data when app starts
     authService.getUserData(context);
+    super.initState();
   }
 
   @override
@@ -52,11 +53,11 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
       ),
       onGenerateRoute: (settings) => generateRoute(settings),
-      home: Provider.of<UserProvider>(context).user.token!.isNotEmpty
-          ? Provider.of<UserProvider>(context).user.type == 'user'
+      home: Provider.of<UserProvider>(context).user.token!.isEmpty
+          ? const AuthScreen()
+          : Provider.of<UserProvider>(context).user.type == 'user'
               ? const BottomBar()
-              : const AdminScreen()
-          : const AuthScreen(),
+              : const AdminScreen(),
     );
   }
 }

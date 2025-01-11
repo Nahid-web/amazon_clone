@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:amazon_clone/common/bottom_bar.dart';
+import 'package:amazon_clone/constants/config.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
-import 'package:amazon_clone/constants/urls.dart';
 import 'package:amazon_clone/constants/utils.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
 import 'package:flutter/material.dart';
