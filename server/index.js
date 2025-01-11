@@ -1,6 +1,7 @@
 //imports from package
 const express = require("express");
 const mongoose = require("mongoose");
+require("dotenv").config();
 
 //imports from files
 const authRoute = require("./routes/auth");
@@ -9,10 +10,9 @@ const productRouter = require("./routes/product");
 const userRouter = require("./routes/user");
 
 //INIT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 const app = express();
-const DB =
-  "mongodb+srv://nahid:amazon12345@cluster0.nzzj2ew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const DB = process.env.DB_URL;
 
 //middleware
 app.use(express.json());
