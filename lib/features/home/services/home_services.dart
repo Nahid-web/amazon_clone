@@ -10,7 +10,7 @@ import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 
 class HomeServices {
-  Future<List<Product>> fetchCategoryProducs({
+  Future<List<Product>> fetchCategoryProducts({
     required BuildContext context,
     required String category,
   }) async {

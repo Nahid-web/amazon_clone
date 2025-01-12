@@ -33,8 +33,14 @@ class AdminServices {
       List<String> imageUrls = [];
 
       for (int i = 0; i < images.length; i++) {
+        print(images[i].path);
         CloudinaryResponse res = await cloudinary.uploadFile(
-          CloudinaryFile.fromFile(images[i].path, folder: "AmazonClone/$name"),
+          CloudinaryFile.fromFile(
+            images[i].path,
+            folder: "AmazonClone/$category",
+            publicId: "${name}_$i",
+            resourceType: CloudinaryResourceType.Image,
+          ),
         );
         imageUrls.add(res.secureUrl);
       }
