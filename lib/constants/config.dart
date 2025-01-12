@@ -27,4 +27,7 @@ class Urls {
   //Cart Url
   static String addToCartUrl = "$_serverUrl/api/add-to-cart";
   static String rateProductUrl = "$_serverUrl/api/rate-product";
+
+  // Search Products
+  static String searchProductUrl = "$_serverUrl/api/products/search";
 }
