@@ -102,7 +102,7 @@ class AuthService {
       }
 
       var tokenRes = await http.post(
-        Uri.parse(Urls.tokenIsValid),
+        Uri.parse(Urls.tokenIsValidUrls),
         headers: {'Content-Type': 'application/json', 'x-auth-token': token!},
       );
 

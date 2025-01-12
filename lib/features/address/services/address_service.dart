@@ -1,7 +1,7 @@
 import 'dart:convert';
 
+import 'package:amazon_clone/constants/config.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
 import 'package:amazon_clone/constants/utils.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +17,7 @@ class AddressService {
 
     try {
       http.Response res = await http.post(
-        Uri.parse('$uri/api/save-user-address'),
+        Uri.parse(Urls.saveUserAddressUrl),
         headers: {
           'Content-Type': 'application/json',
           'x-auth-token': userProvider.user.token!,
@@ -46,7 +46,7 @@ class AddressService {
   }) async {
     final userProvider = Provider.of<UserProvider>(context, listen: false);
     try {
-      http.Response res = await http.post(Uri.parse('$uri/api/order'),
+      http.Response res = await http.post(Uri.parse(Urls.orderProductUrl),
           headers: {
             'Content-Type': 'application/json',
             'x-auth-token': userProvider.user.token!,

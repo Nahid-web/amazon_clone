@@ -120,8 +120,8 @@ class _AddressScreenState extends State<AddressScreen> {
                         color: Colors.black12,
                       ),
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(8.0),
                       child: Text(
                         'demo address',
                         style: TextStyle(
@@ -212,6 +212,13 @@ class _AddressScreenState extends State<AddressScreen> {
                       )
                     : const SizedBox.shrink(),
               ),
+              SizedBox(
+                height: 20,
+              ),
+              // CustomButton(
+              //   text: "on payment result",
+              //   onTap: onGooglePayResult,
+              // )
             ],
           ),
         ),

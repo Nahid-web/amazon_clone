@@ -49,7 +49,7 @@ class AdminServices {
       );
       // add product
       http.Response res = await http.post(
-        Uri.parse(Urls.addProduct),
+        Uri.parse(Urls.addProductUrls),
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
           'x-auth-token': userProvider.user.token!,
@@ -75,7 +75,8 @@ class AdminServices {
     List<Product> proudctList = [];
 
     try {
-      http.Response res = await http.get(Uri.parse(Urls.getProducts), headers: {
+      http.Response res =
+          await http.get(Uri.parse(Urls.getProductsUrls), headers: {
         'Content-Type': 'application/json',
         'x-auth-token': userProvider.user.token!,
       });
@@ -106,7 +107,7 @@ class AdminServices {
 
     try {
       http.Response res = await http.post(
-        Uri.parse(Urls.deleteProduct),
+        Uri.parse(Urls.deleteProductUrls),
         headers: {
           'Content-Type': 'application/json',
           'x-auth-token': userProvider.user.token!,

@@ -6,10 +6,14 @@ class Urls {
   //Auth Url
   static String signUpUrl = "$_serverUrl/api/signup";
   static String signInUrl = "$_serverUrl/api/signin";
-  static String tokenIsValid = "$_serverUrl/tokenIsValid";
+  static String tokenIsValidUrls = "$_serverUrl/tokenIsValid";
 
   //Admin Url
-  static String addProduct = "$_serverUrl/admin/add-product";
-  static String getProducts = "$_serverUrl/admin/get-products";
-  static String deleteProduct = "$_serverUrl/admin/delete-product";
+  static String addProductUrls = "$_serverUrl/admin/add-product";
+  static String getProductsUrls = "$_serverUrl/admin/get-products";
+  static String deleteProductUrls = "$_serverUrl/admin/delete-product";
+
+  //User Address Url
+  static String saveUserAddressUrl = "$_serverUrl/api/save-user-address";
+  static String orderProductUrl = "$_serverUrl/api/order";
 }
