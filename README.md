@@ -4,6 +4,11 @@
 
 ---
 
+## 🔗 GitHub Repository
+You can find the project repository on [GitHub](https://github.com/Nahid-web/amazon_clone).
+
+---
+
 ## Tech Stack
 
 ### 🛠️ Backend
@@ -139,3 +144,7 @@ To run this project locally, follow the steps below:
    # OR
    npm start    # To run the server one time
    ```
+---
+## Feedback
+If you have any feedback, please reach out to me at nahidamin266@gmail.com.
+---
