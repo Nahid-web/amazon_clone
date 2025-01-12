@@ -52,6 +52,44 @@
 
 ---
 
+## 📸 Screenshots
+
+Here are some screenshots of the project:
+
+### 🌟 Home Page
+
+<img src="IMAGE_URL_1" alt="Home Page" width="50%">
+
+### 👤 Account Page
+
+<img src="IMAGE_URL_2" alt="Account Page" width="50%">
+
+### 🛍️ Product Details Page
+
+<img src="IMAGE_URL_3" alt="Product Details Page" width="50%">
+
+### 🔍 Search Results Page
+
+<img src="IMAGE_URL_4" alt="Search Results Page" width="50%">
+
+### 🛒 Cart Page
+
+<img src="IMAGE_URL_5" alt="Cart Page" width="50%">
+
+### 💳 Buy Page
+
+<img src="IMAGE_URL_6" alt="Buy Page" width="50%">
+
+### 📦 Admin Panel
+
+<img src="IMAGE_URL_7" alt="Admin Panel" width="50%">
+
+### ➕ Add Product Screen
+
+<img src="IMAGE_URL_8" alt="Add Product Screen" width="50%">
+
+---
+
 ## Getting Started
 
 Follow these steps to set up the project locally:
