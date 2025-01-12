@@ -23,4 +23,8 @@ class Urls {
   //fetch category products
   static String fetchCategoryProductsUrl = "$_serverUrl/api/products?category";
   static String fetchDealOfDayUrl = "$_serverUrl/api/deal-of-day";
+
+  //Cart Url
+  static String addToCartUrl = "$_serverUrl/api/add-to-cart";
+  static String rateProductUrl = "$_serverUrl/api/rate-product";
 }

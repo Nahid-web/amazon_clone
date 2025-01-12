@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:amazon_clone/constants/config.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
 import 'package:amazon_clone/constants/utils.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
@@ -7,7 +8,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 
-import '../../../constants/global_variables.dart';
 import '../../../models/product.dart';
 
 class ProductDetailsServices {
@@ -19,7 +19,7 @@ class ProductDetailsServices {
 
     try {
       http.Response res = await http.post(
-        Uri.parse('$uri/api/add-to-cart'),
+        Uri.parse(Urls.addToCartUrl),
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
           'x-auth-token': userProvider.user.token!,
@@ -48,7 +48,7 @@ class ProductDetailsServices {
     final userProvider = Provider.of<UserProvider>(context, listen: false);
     try {
       http.Response res = await http.post(
-        Uri.parse('$uri/api/rate-product'),
+        Uri.parse(Urls.rateProductUrl),
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
           'x-auth-token': userProvider.user.token!,
