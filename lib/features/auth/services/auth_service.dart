@@ -10,7 +10,6 @@ import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../../constants/global_variables.dart';
 import '../../../models/user.dart';
 
 class AuthService {
@@ -102,17 +101,18 @@ class AuthService {
       }
 
       var tokenRes = await http.post(
-        Uri.parse(Urls.tokenIsValidUrls),
+        Uri.parse(Urls.tokenIsValidUrl),
         headers: {'Content-Type': 'application/json', 'x-auth-token': token!},
       );
 
       var response = jsonDecode(tokenRes.body);
 
       if (response == true) {
-        http.Response userRes = await http.get(Uri.parse('$uri/'), headers: {
-          'Content-type': 'application/json',
-          'x-auth-token': token
-        });
+        http.Response userRes = await http.get(Uri.parse(Urls.getUserDataUrl),
+            headers: {
+              'Content-type': 'application/json',
+              'x-auth-token': token
+            });
         var userProvider = Provider.of<UserProvider>(context, listen: false);
         userProvider.setUser(jsonDecode(userRes.body));
       }

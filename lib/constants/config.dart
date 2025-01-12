@@ -6,7 +6,8 @@ class Urls {
   //Auth Url
   static String signUpUrl = "$_serverUrl/api/signup";
   static String signInUrl = "$_serverUrl/api/signin";
-  static String tokenIsValidUrls = "$_serverUrl/tokenIsValid";
+  static String tokenIsValidUrl = "$_serverUrl/tokenIsValid";
+  static String getUserDataUrl = "$_serverUrl/";
 
   //Admin Url
   static String addProductUrls = "$_serverUrl/admin/add-product";
