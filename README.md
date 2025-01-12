@@ -3,6 +3,9 @@
 **A Full-Stack Amazon Clone with Admin Panel**
 
 ---
+## 🔗 GitHub Repository
+You can find the project repository on [GitHub](https://github.com/Nahid-web/amazon_clone).
+---
 
 ## Tech Stack
 
@@ -58,33 +61,39 @@ Here are some screenshots of the project:
 
 ### 🌟 Home Page
 
-<img src="IMAGE_URL_1" alt="Home Page" width="50%">
+<img src="https://github.com/user-attachments/assets/859c5d61-d0ec-432f-aeec-05d1b48e6a1d" alt="Home Page" width="50%">
 
 ### 👤 Account Page
 
-<img src="IMAGE_URL_2" alt="Account Page" width="50%">
+<img src="[IMAGE_URL_2](https://github.com/user-attachments/assets/5302236b-74f3-4ecc-9c50-18edf435f64d)" alt="Account Page" width="50%">
 
 ### 🛍️ Product Details Page
+![product_details](https://github.com/user-attachments/assets/c0dcca5a-7dce-4718-bb7d-d60854950d46)
 
-<img src="IMAGE_URL_3" alt="Product Details Page" width="50%">
+<img src="https://github.com/user-attachments/assets/c0dcca5a-7dce-4718-bb7d-d60854950d46" alt="Product Details Page" width="50%">
 
-### 🔍 Search Results Page
+### 🔍![search_screen](https://github.com/user-attachments/assets/96ec6257-bf8a-4ca9-a69f-aad53a508a16)
+ Search Results Page
 
 <img src="IMAGE_URL_4" alt="Search Results Page" width="50%">
 
 ### 🛒 Cart Page
+![cart_screen](https://github.com/user-attachments/assets/a5443b32-708d-4a7e-a63a-fb199d13f250)
 
 <img src="IMAGE_URL_5" alt="Cart Page" width="50%">
 
 ### 💳 Buy Page
+![buy_screen](https://github.com/user-attachments/assets/7f440ee7-e426-439e-99eb-1df312da74e0)
 
 <img src="IMAGE_URL_6" alt="Buy Page" width="50%">
 
 ### 📦 Admin Panel
+![admin_scrren](https://github.com/user-attachments/assets/b65e4358-02fc-4cc2-8492-ce9ea6bfcd74)
 
 <img src="IMAGE_URL_7" alt="Admin Panel" width="50%">
 
 ### ➕ Add Product Screen
+![add_product_screen](https://github.com/user-attachments/assets/3db892ca-f7f2-4bcc-b7c0-b9ec478cb3fa)
 
 <img src="IMAGE_URL_8" alt="Add Product Screen" width="50%">
 
@@ -139,3 +148,7 @@ To run this project locally, follow the steps below:
    # OR
    npm start    # To run the server one time
    ```
+   
+## Feedback
+If you have any feedback, please reach out to me at nahidamin266@gmail.com.
+
