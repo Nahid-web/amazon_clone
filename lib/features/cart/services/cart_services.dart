@@ -1,7 +1,7 @@
 import 'dart:convert';
 
+import 'package:amazon_clone/constants/config.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
 import 'package:amazon_clone/constants/utils.dart';
 import 'package:amazon_clone/models/product.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
@@ -17,7 +17,7 @@ class CartServices {
     final userProvider = Provider.of<UserProvider>(context, listen: false);
     try {
       http.Response res = await http.delete(
-        Uri.parse('$uri/api/remove-from-cart/${product.id}'),
+        Uri.parse('${Urls.removeCartUrl}/${product.id}'),
         headers: {
           'Content-Type': 'application/json',
           'x-auth-token': userProvider.user.token!,

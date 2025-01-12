@@ -1,7 +1,7 @@
 import 'dart:convert';
 
+import 'package:amazon_clone/constants/config.dart';
 import 'package:amazon_clone/constants/error_handeling.dart';
-import 'package:amazon_clone/constants/global_variables.dart';
 import 'package:amazon_clone/constants/utils.dart';
 import 'package:amazon_clone/models/product.dart';
 import 'package:amazon_clone/providers/user_provider.dart';
@@ -19,7 +19,7 @@ class HomeServices {
 
     try {
       http.Response res = await http.get(
-        Uri.parse('$uri/api/products?category=$category'),
+        Uri.parse('${Urls.fetchCategoryProductsUrl}=$category'),
         headers: {
           'Content-Type': 'application/json',
           'x-auth-token': userProvider.user.token!,
@@ -51,7 +51,7 @@ class HomeServices {
 
     try {
       http.Response res =
-          await http.get(Uri.parse('$uri/api/deal-of-day'), headers: {
+          await http.get(Uri.parse(Urls.fetchDealOfDayUrl), headers: {
         'Content-Type': 'application/json; charset=UTF-8',
         'x-auth-token': userProvider.user.token!,
       });
