@@ -68,6 +68,8 @@ You can find the project repository on [GitHub](https://github.com/Nahid-web/ama
 ![admin_scrren](https://github.com/user-attachments/assets/ff3a3728-9fff-4fef-a6cd-600b611ea0df)
 ![add_product_screen](https://github.com/user-attachments/assets/e719e0f2-c8d8-4861-b1b5-3f31554270a3)
 ![account_screen](https://github.com/user-attachments/assets/16178dfa-325e-4957-9fd9-5ba82b49c830)
+![monodb_batabase_blue_gimp](https://github.com/user-attachments/assets/7a7669e3-b36a-4d9c-9d1d-e3f934afdc6e)
+![clodinary_media_blur_gimp](https://github.com/user-attachments/assets/03a24663-bbc5-41d5-8f6c-fb2602fa1279)
 
 Here are some screenshots of the project:
 
