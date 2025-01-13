@@ -5,6 +5,7 @@
 ---
 
 ## 🔗 GitHub Repository
+
 You can find the project repository on [GitHub](https://github.com/Nahid-web/amazon_clone).
 
 ---
@@ -58,52 +59,56 @@ You can find the project repository on [GitHub](https://github.com/Nahid-web/ama
 ---
 
 ## 📸 Screenshots
-![search_screen](https://github.com/user-attachments/assets/704a555a-6e01-4c9d-ad48-88f7afce48ae)
-![product_details](https://github.com/user-attachments/assets/f8e9b618-eb46-4376-92d5-9c64ef9e5e55)
-![home_screen](https://github.com/user-attachments/assets/029d1748-321d-483f-8dce-1d19bf510a23)
-![catogory_product](https://github.com/user-attachments/assets/8a0fe7bc-253f-4961-b5b5-d8b38cb388ed)
-![cart_screen](https://github.com/user-attachments/assets/0a9ea778-5eef-493f-bd51-d54f0c972cbb)
-![buy_screen](https://github.com/user-attachments/assets/3d407213-fec4-48d4-99fc-44e15f39d560)
-![auth_screen](https://github.com/user-attachments/assets/44ee043e-72ef-4962-aa7a-be8e1a438543)
-![admin_scrren](https://github.com/user-attachments/assets/ff3a3728-9fff-4fef-a6cd-600b611ea0df)
-![add_product_screen](https://github.com/user-attachments/assets/e719e0f2-c8d8-4861-b1b5-3f31554270a3)
-![account_screen](https://github.com/user-attachments/assets/16178dfa-325e-4957-9fd9-5ba82b49c830)
-![monodb_batabase_blue_gimp](https://github.com/user-attachments/assets/7a7669e3-b36a-4d9c-9d1d-e3f934afdc6e)
-![clodinary_media_blur_gimp](https://github.com/user-attachments/assets/03a24663-bbc5-41d5-8f6c-fb2602fa1279)
 
 Here are some screenshots of the project:
 
-### 🌟 Home Page
+### 🛠️ Backend Database (Mongodb)
 
-<img src="IMAGE_URL_1" alt="Home Page" width="50%">
+  <img src="https://github.com/user-attachments/assets/7a7669e3-b36a-4d9c-9d1d-e3f934afdc6e" alt="Mongodb Database" width="60%" />
 
-### 👤 Account Page
+### 📷 Media Storage (Cloudinary)
 
-<img src="IMAGE_URL_2" alt="Account Page" width="50%">
+  <img src="https://github.com/user-attachments/assets/03a24663-bbc5-41d5-8f6c-fb2602fa1279" alt="Cloudinary Media" width="70%" />
 
-### 🛍️ Product Details Page
+### 📝 Auth Screen
 
-<img src="IMAGE_URL_3" alt="Product Details Page" width="50%">
+<img src="https://github.com/user-attachments/assets/44ee043e-72ef-4962-aa7a-be8e1a438543" alt="Admin Panel" width="50%">
 
-### 🔍 Search Results Page
+### 📦 Admin Screen
 
-<img src="IMAGE_URL_4" alt="Search Results Page" width="50%">
-
-### 🛒 Cart Page
-
-<img src="IMAGE_URL_5" alt="Cart Page" width="50%">
-
-### 💳 Buy Page
-
-<img src="IMAGE_URL_6" alt="Buy Page" width="50%">
-
-### 📦 Admin Panel
-
-<img src="IMAGE_URL_7" alt="Admin Panel" width="50%">
+<img src="https://github.com/user-attachments/assets/ff3a3728-9fff-4fef-a6cd-600b611ea0df" alt="Admin Panel" width="50%">
 
 ### ➕ Add Product Screen
 
-<img src="IMAGE_URL_8" alt="Add Product Screen" width="50%">
+<img src="https://github.com/user-attachments/assets/e719e0f2-c8d8-4861-b1b5-3f31554270a3" alt="Add Product Screen" width="50%">
+
+### 🌟 Home Screen
+
+<img src="https://github.com/user-attachments/assets/029d1748-321d-483f-8dce-1d19bf510a23" alt="Home Page" width="50%">
+
+### 👤 Account Screen
+
+<img src="https://github.com/user-attachments/assets/16178dfa-325e-4957-9fd9-5ba82b49c830" alt="Account Page" width="50%">
+
+### 🛍️ Product Details Screen
+
+<img src="https://github.com/user-attachments/assets/f8e9b618-eb46-4376-92d5-9c64ef9e5e55" alt="Product Details Page" width="50%">
+
+### 🗃️ Category Product Item
+
+<img src="https://github.com/user-attachments/assets/8a0fe7bc-253f-4961-b5b5-d8b38cb388ed" alt="Category Product Item" width="50%">
+
+### 🔍 Search Results Screen
+
+<img src="https://github.com/user-attachments/assets/704a555a-6e01-4c9d-ad48-88f7afce48ae" alt="Search Results Page" width="50%">
+
+### 🛒 Cart Screen
+
+<img src="https://github.com/user-attachments/assets/0a9ea778-5eef-493f-bd51-d54f0c972cbb" alt="Cart Page" width="50%">
+
+### 💳 Buy Screen
+
+<img src="https://github.com/user-attachments/assets/3d407213-fec4-48d4-99fc-44e15f39d560" alt="Buy Page" width="50%">
 
 ---
 
@@ -156,11 +161,14 @@ To run this project locally, follow the steps below:
    # OR
    npm start    # To run the server one time
    ```
-   ---
+   ***
    ## Feedback
-If you have any feedback, please reach out to me at nahidamin266@gmail.com.
+   If you have any feedback, please reach out to me at nahidamin266@gmail.com.
+
 ---
+
 ---
+
 ## Feedback
-If you have any feedback, please reach out to me at nahidamin266@gmail.com.
----
+
+## If you have any feedback, please reach out to me at nahidamin266@gmail.com.
