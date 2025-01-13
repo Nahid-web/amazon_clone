@@ -58,6 +58,16 @@ You can find the project repository on [GitHub](https://github.com/Nahid-web/ama
 ---
 
 ## 📸 Screenshots
+![search_screen](https://github.com/user-attachments/assets/704a555a-6e01-4c9d-ad48-88f7afce48ae)
+![product_details](https://github.com/user-attachments/assets/f8e9b618-eb46-4376-92d5-9c64ef9e5e55)
+![home_screen](https://github.com/user-attachments/assets/029d1748-321d-483f-8dce-1d19bf510a23)
+![catogory_product](https://github.com/user-attachments/assets/8a0fe7bc-253f-4961-b5b5-d8b38cb388ed)
+![cart_screen](https://github.com/user-attachments/assets/0a9ea778-5eef-493f-bd51-d54f0c972cbb)
+![buy_screen](https://github.com/user-attachments/assets/3d407213-fec4-48d4-99fc-44e15f39d560)
+![auth_screen](https://github.com/user-attachments/assets/44ee043e-72ef-4962-aa7a-be8e1a438543)
+![admin_scrren](https://github.com/user-attachments/assets/ff3a3728-9fff-4fef-a6cd-600b611ea0df)
+![add_product_screen](https://github.com/user-attachments/assets/e719e0f2-c8d8-4861-b1b5-3f31554270a3)
+![account_screen](https://github.com/user-attachments/assets/16178dfa-325e-4957-9fd9-5ba82b49c830)
 
 Here are some screenshots of the project:
 
@@ -144,6 +154,10 @@ To run this project locally, follow the steps below:
    # OR
    npm start    # To run the server one time
    ```
+   ---
+   ## Feedback
+If you have any feedback, please reach out to me at nahidamin266@gmail.com.
+---
 ---
 ## Feedback
 If you have any feedback, please reach out to me at nahidamin266@gmail.com.
